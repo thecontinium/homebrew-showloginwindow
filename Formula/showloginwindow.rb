@@ -3,6 +3,8 @@ class Showloginwindow< Formula
   url 'https://github.com/thecontinium/homebrew-showloginwindow.git'
   version '0.0.4'
 
+  skip_clean 'bin'
+
   #plist_options :startup => true
 
   def plist; <<-EOS.undent
