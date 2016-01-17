@@ -1,12 +1,7 @@
 class Showloginwindow< Formula
   homepage 'https://github.com/thecontinium/homebrew-showloginwindow/'
   url 'https://github.com/thecontinium/homebrew-showloginwindow.git'
-  version '0.0.3'
-
-  skip_clean 'bin'
-
-  def install
-  end
+  version '0.0.4'
 
   #plist_options :startup => true
 
