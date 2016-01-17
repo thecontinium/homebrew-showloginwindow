@@ -6,6 +6,7 @@ class Showloginwindow< Formula
   skip_clean 'bin'
 
   def install
+    bin.install 'donothing'
   end
 
   #plist_options :startup => true
