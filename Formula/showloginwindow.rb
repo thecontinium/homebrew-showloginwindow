@@ -7,6 +7,7 @@ class Showloginwindow< Formula
 
   def install
     ohai "No executables will be installed"
+    system "echo hello"
     #bin.install 'donothing'
   end
 
