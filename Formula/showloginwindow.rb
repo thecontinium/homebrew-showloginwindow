@@ -1,7 +1,7 @@
 class Showloginwindow< Formula
   homepage 'https://github.com/thecontinium/homebrew-showloginwindow/'
   url 'https://github.com/thecontinium/homebrew-showloginwindow.git'
-  version '0.3.0'
+  version '0.4.0'
 
   skip_clean 'bin'
 
