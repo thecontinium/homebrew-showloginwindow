@@ -5,11 +5,11 @@ class Showloginwindow< Formula
 
   skip_clean 'bin'
 
-  def install
-    ohai "No executables will be installed"
-    system "echo hello"
+  #def install
+  #  ohai "No executables will be installed"
+  #  system "echo hello"
     #bin.install 'donothing'
-  end
+  #end
 
   #plist_options :startup => true
 
