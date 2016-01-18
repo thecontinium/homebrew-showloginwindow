@@ -1,15 +1,15 @@
 class Showloginwindow< Formula
   homepage 'https://github.com/thecontinium/homebrew-showloginwindow/'
   url 'https://github.com/thecontinium/homebrew-showloginwindow.git'
-  version '0.7.0'
+  version '0.8.0'
 
   skip_clean 'bin'
 
   def install
     ohai "No executables will be installed"
     system "echo hello"
-    bin.install 
-    #'donothing'
+    #bin.install 'donothing'
+    prefix.install Dir["config/*.plist"]
   end
 
   #plist_options :startup => true
